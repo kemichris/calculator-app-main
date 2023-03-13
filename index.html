@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Calculator app</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div class="calculator-container">
+      <div class="title">
+        <h1>calc</h1>
+        <div class="theme">
+          <p>theme</p>
+          <div class="theme-button">
+            <p class="theme-numbers">123</p>
+            <input type="checkbox" name="" id="check">
+            <label  for="check"><div class="circle"></div></label>
+          </div>
+        </div>
+      </div>
+
+      <input type="text" class="display-section" readonly id="display">
+      <div class="calc-section">
+        <button class="btn number" id="7">7</button>
+        <button class="btn number" id="8">8</button>
+        <button class="btn number" id="9">9</button>
+        <button class="btn" id="del">Del</button>
+        <button class="btn number" id="4">4</button>
+        <button class="btn number" id="5">5</button>
+        <button class="btn number" id="6">6</button>
+        <button class="btn operator" id="plus">+</button>
+        <button class="btn number" id="1">1</button>
+        <button class="btn number" id="2">2</button>
+        <button class="btn number" id="3">3</button>
+        <button class="btn operator" id="minus">-</button>
+        <button class="btn number" id="point">.</button>
+        <button class="btn number" id="0">0</button>
+        <button class="btn operator" id="divide">/</button>
+        <button class="btn operator" id="multiply">*</button>
+        <button class="btn" id="reset">Reset</button>
+        <button class="btn" id="equal-to">=</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>
