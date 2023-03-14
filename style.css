@@ -50,7 +50,7 @@
     width: 3.5rem;
     height: 1rem;
     padding: 0.2rem 0.4rem;
-    position: absolute;
+    position: fixed;
     border-radius: 2rem;
     top: 7rem;
  }
@@ -138,3 +138,8 @@
     background-color: hsl(6, 63%, 50%);
     box-shadow: 0 2px 2px hsl(6, 70%, 34%) ;
 }
+
+/* styling for other screen size */
+/* @media (max-width: 400px ) {
+   
+} */

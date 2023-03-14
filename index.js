@@ -98,7 +98,7 @@ function calculate() {
     }
     let evaluate = eval(display.value);
     currentVal = evaluate;
-    display.value = currentVal;  
+    display.value = parseFloat(currentVal).toLocaleString();  
 }
 
 // Function to perform the calculation
