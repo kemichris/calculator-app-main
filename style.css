@@ -75,13 +75,11 @@
     text-align: end;
     border-radius: 0.5rem;
     width: 24rem;
- }
-
- .display-section {
     font-size: 3rem;
     color: white;
     margin: 0;
  }
+
  /* end of styling for the screen section  */
 
  /* syling for the button section  */
@@ -140,6 +138,19 @@
 }
 
 /* styling for other screen size */
-/* @media (max-width: 400px ) {
-   
-} */
+@media (max-width: 400px ) {
+   .calculator-container {
+      width: 18rem;
+   }
+
+   .display-section {
+      padding: 0.7rem 0.5rem;
+      text-align: end;
+      width: 17rem;
+      font-size: 2rem;
+   }
+
+   .btn {
+      padding: 0.3rem 1rem;
+   }
+}
